@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="信息状态显示："
+            android:padding="10dp"
+            android:textColor="#000"
+            android:textSize="18dp"
+            />
+        <TextView
+            android:id="@+id/tv_Info"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="text"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="login"
+            android:layout_marginLeft="19dp"
+            android:layout_marginRight="19dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/selector_gander_radio"
+            />
+<!--        <com.facebook.login.widget.LoginButton-->
+<!--            android:id="@+id/btn_login"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="19dp"-->
+<!--            android:layout_marginRight="19dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            />-->
+        <Button
+            android:id="@+id/btn_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="pay"
+            android:layout_marginLeft="19dp"
+            android:layout_marginRight="19dp"
+            android:background="@drawable/selector_gander_radio"
+            />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp"
+                >
+
+                <Button
+                    android:id="@+id/btn_CreateUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="创建角色"
+                    android:background="@drawable/selector_gander_radio"
+                    />
+
+                <Button
+                    android:id="@+id/btn_enterUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="进入游戏"
+                    android:background="@drawable/selector_gander_radio"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    />
+
+                <Button
+                    android:id="@+id/btn_UpUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="角色升级"
+                    android:background="@drawable/selector_gander_radio"
+                    />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_chat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="聊天"
+                android:layout_margin="5dp"
+                android:background="@drawable/selector_gander_radio"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp"
+                >
+
+                <Button
+                    android:id="@+id/btn_logout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="注销"
+                    android:background="@drawable/selector_gander_radio"
+                    android:layout_marginRight="4dp"
+                    />
+                <Button
+                    android:id="@+id/btn_exit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="退出游戏"
+                    android:background="@drawable/selector_gander_radio"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+
+
+</LinearLayout>

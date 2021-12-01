@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "430012814077",
+    "project_id": "person-test-analytics",
+    "storage_bucket": "person-test-analytics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430012814077:android:545536ecddef5c8b3ea494",
+        "android_client_info": {
+          "package_name": "com.aly.test.analytics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430012814077-4gepejuk18cd7tt0pf8sjal2ca0h6jsp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP3a6MpOGadvSIUO4Gy_Z0dGqbhMQ5QHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430012814077-4gepejuk18cd7tt0pf8sjal2ca0h6jsp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
