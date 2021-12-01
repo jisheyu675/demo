@@ -1,0 +1,8 @@
+include ':chartboostadapter-4.3.5'
+include ':vungleadapter-4.3.8'
+include ':unityadsadapter-4.3.10'
+include ':admobadapter-4.3.19'
+include ':facebookadapter-4.3.26'
+include ':adcolonyadapter-4.3.8'
+include ':app'
+rootProject.name = "ironSource"
